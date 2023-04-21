@@ -1,0 +1,153 @@
+body {
+ 
+  margin: 0 auto;
+  background: black;
+  color: #B4A3B6;
+  padding: 5em;
+  width:1200px;
+  scrollbar-width: none;
+}
+
+
+img {
+  width:100vh;
+  object-fit: contain;
+  border: 3px white;
+}
+
+.collage-container {
+ position:relative;
+  background-color:black;
+  scrollbar-width: none;
+}
+.box{
+  width:1200px;
+  height:800px;
+  background-color:black;
+  scrollbar-width: none;
+  overflow:auto; 
+  position:relative;
+}
+/*.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex:200px;
+}*/
+.flex {
+  position: relative;
+  overflow:scroll; 
+  left: 440px;
+  top: 30px;
+  width: 100vh;
+  height: 100vh;
+  padding: 30px 20px;
+  background: black;
+  object-fit:cover;
+  scrollbar-width: none;
+}
+.flex_a {
+  position: relative;
+  overflow:scroll; 
+  left: 0px;
+  top: 30px;
+  width: 100vh;
+  height: 600px;
+  padding: 30px 20px;
+  background: black;
+  object-fit:cover;
+  scrollbar-width: none;
+}
+
+
+.layer {
+  padding: 10px;
+}
+
+.layer1 {
+  padding: 10px;
+}
+
+.layer2 {
+  position:relative;
+  top:-80vh;
+  left: 450px;
+  opacity: 0.9;
+}
+
+.layer3 {
+  position: sticky;
+  top: 0px;
+  left: 130px;
+  transform:rotate(-0.5turn);
+  opacity: 0.8;
+}
+
+.layer4 {
+  left: 570px;
+  transform: skew(30deg, 20deg);
+  opacity: 0.7;
+}
+
+.layer5 {
+  position:relative;
+  opacity: 0.7;
+}
+
+.layer6 {
+  position:relative;
+  opacity: 0.6;
+}
+
+.layer7 {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  opacity: 0.5;
+}
+
+.layer8 {
+  position:relative;
+  opacity: 0.4;
+}
+
+.layer9 {
+  opacity: 0.3;
+}
+
+.layer10 {
+  opacity: 0.2;
+} 
+
+/*img:nth-of-type(3) {
+  position: relative;
+  top: 10px;
+  right: 30px;
+  z-index: 1;
+}
+*/
+p:nth-of-type(1) {
+  position: relative;
+  z-index: 1;
+}
+
+
+.layer h1 {
+  font-size: 1.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.layer p {
+  font-size: 1.5rem;
+}
+
+/*.sticky{
+  position: sticky;
+  background-color: aliceblue;
+  width:100px;
+  height:50px;
+  top: 300px;
+  left: 630px;
+}*/
+
